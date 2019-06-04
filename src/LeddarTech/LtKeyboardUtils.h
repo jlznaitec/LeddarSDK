@@ -15,6 +15,7 @@
 #pragma once
 
 #include "LtDefines.h"
+#ifdef BUILD_KEYBOARD_UTILS
 
 namespace LeddarUtils
 {
@@ -29,3 +30,5 @@ namespace LeddarUtils
 #endif
     }
 }
+
+#endif

@@ -15,6 +15,9 @@
 #include "LtKeyboardUtils.h"
 #include "LtTimeUtils.h"
 
+#ifdef BUILD_KEYBOARD_UTILS
+
+
 #ifdef _WIN32
 #include <conio.h>
 #else
@@ -187,3 +190,5 @@ LeddarUtils::LtKeyboardUtils::WaitKey( void )
 #ifdef __GNUC__
 #pragma GCC diagnostic pop
 #endif
+
+#endif // BUILD_KEYBOARD_UTILS

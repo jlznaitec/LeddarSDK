@@ -53,3 +53,4 @@
 #define BUILD_CANBUS_KOMODO     /// CANBus using Komodo hardware
 #define BUILD_USB               /// Usb
 #define BUILD_ETHERNET          /// Ethernet
+#define BUILD_KEYBOARD_UTILS    /// Include or not Keyboard Utils
