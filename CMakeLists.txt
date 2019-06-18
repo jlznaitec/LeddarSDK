@@ -6,3 +6,4 @@ project(LeddarTechSDK
     HOMEPAGE_URL "http://sdk.leddartech.com")
 
 add_subdirectory(src)
+add_subdirectory(tests)
