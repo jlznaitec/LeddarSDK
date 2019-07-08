@@ -185,7 +185,7 @@ HEADERS += \
     ../LeddarTech/LtSystemUtils.h \
     ../LeddarTech/LtTimeUtils.h
 
-#unix {
-#    target.path = /usr/lib
-#    INSTALLS += target
-#}
+unix {
+    target.path = /usr/lib
+    INSTALLS += target
+}
